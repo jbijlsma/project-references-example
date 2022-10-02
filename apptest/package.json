@@ -4,6 +4,8 @@
   "description": "To compare the performance of project references with webpack & ts-loader vs webpack and tsc run in a separate process.",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
+    "uninstall": "rm -rf dist node_modules",
     "start": "webpack-dev-server",
     "build": "webpack"
   },
