@@ -3,12 +3,6 @@
   "files": ["./src/index.tsx"],
   "references": [
     {
-      "path": "../packages/core"
-    },
-    {
-      "path": "../packages/animals"
-    },
-    {
       "path": "../packages/zoo"
     }
   ]
