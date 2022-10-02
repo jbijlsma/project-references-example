@@ -8,7 +8,8 @@
   },
   "license": "ISC",
   "scripts": {
-    "clean": "rm -rf lib tsconfig.tsbuildinfo"
+    "clean": "rm -rf lib tsconfig.tsbuildinfo",
+    "uninstall": "rm -rf node_modules"
   },
   "dependencies": {
     "@myscope/core": "workspace:*"

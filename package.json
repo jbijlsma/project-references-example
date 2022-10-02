@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "build": "pnpm --stream -r run build",
+    "start": "pnpm --stream -r run start",
     "clean": "pnpm -r run clean",
     "uninstall": "rm -rf node_modules && pnpm -r run uninstall"
   }
