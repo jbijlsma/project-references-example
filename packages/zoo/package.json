@@ -8,10 +8,12 @@
   },
   "license": "ISC",
   "dependencies": {
+    "@myscope/animals": "workspace:*",
     "@types/react": "^16.9.48",
     "react": "^16.13.1"
   },
   "scripts": {
-    "clean": "rm -rf lib tsconfig.tsbuildinfo"
+    "clean": "rm -rf lib tsconfig.tsbuildinfo",
+    "uninstall": "rm -rf node_modules"
   }
 }
