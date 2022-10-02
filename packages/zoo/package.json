@@ -10,5 +10,8 @@
   "dependencies": {
     "@types/react": "^16.9.48",
     "react": "^16.13.1"
+  },
+  "scripts": {
+    "clean": "rm -rf lib tsconfig.tsbuildinfo"
   }
 }

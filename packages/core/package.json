@@ -6,5 +6,8 @@
   "directories": {
     "lib": "lib"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm -rf lib tsconfig.tsbuildinfo"
+  }
 }
