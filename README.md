@@ -1,26 +1,31 @@
-# TypeScript Project References Demo
+# Intro
 
-This repo is forked from https://github.com/RyanCavanaugh/project-references-demo, which is a repo to demonstrate the use of project references in TYpeScript.  It has been extended to show how project references can be used in a project using the following:
+Example of how to use typescript references, (npm / yarn) workspaces and webpack together to create a pleasant development workflow.
 
-* TypeScript
-* Webpack
-* ts-loader
-* yarn workspaces
+# Running locally
 
-This repo is described in the article at the link below.  Please see the article for further details.
+In the project root run:
 
-<TODO: Insert link to article>
-
-## Installation
 ```
 yarn install
 ```
 
-## Running
+In the /apptest folder run:
+
 ```
-yarn start
+yarn install
 ```
-Go to localhost:8080 in your browser to view the output. Edit files in the <code>packages</code> to see the changes in the browser.
 
+Then to build:
 
+```
+npm run build
+```
 
+And to run:
+
+```
+npm start
+```
+
+Note that changing code in the referenced projects will hot-reload the app!
