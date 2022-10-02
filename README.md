@@ -29,3 +29,11 @@ npm start
 ```
 
 Note that changing code in the referenced projects will hot-reload the app!
+
+# Pnpm basics
+
+Update all packages to latest versions:
+
+```
+pnpm up -L -r
+```
